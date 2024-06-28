@@ -1,0 +1,180 @@
+.Banner2-Main {
+  background-color: #000000;
+  color: #ffffffff;
+  margin: 6rem 0px;
+}
+
+.content {
+  display: grid;
+  place-items: center;
+}
+.content h1 {
+  margin-top: 1rem;
+  font-family: Astronomus;
+  font-size: 76px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60%;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .content h1 {
+    font-size: 50px;
+  }
+}
+.content p {
+  font-size: x-small;
+  width: 500px;
+  text-align: center;
+  margin: 2rem 0px;
+}
+
+.content button {
+  padding: 1rem 5rem;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #2b1645 0%, #9442ba 100%);
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #3b2c4e 0%, #4b206c 100%);
+}
+.buttonImg {
+  width: 70px;
+}
+.Cards-Main {
+  margin: 0px 10% !important;
+}
+.card {
+  background: linear-gradient(180deg, #201034 0%, #090211 100%);
+}
+.card-text {
+  font-size: x-small;
+  width: 100% !important;
+  margin: 1rem 0px 1rem 0rem !important;
+  text-align: center;
+  color: #ffffffff;
+}
+.card-title {
+  text-align: center;
+  color: #ffffffff !important;
+}
+.card-body hr {
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(
+    90deg,
+    rgba(378, 499, 99, 0) 0%,
+    rgba(1258, 479, 201, 0.5) 55.5%,
+    rgba(783, 439, 99, 0) 100%
+  );
+  border-image-slice: 2;
+}
+.card-body button {
+  margin: 0 0 0.2rem 0 !important;
+  padding: 6px 0rem !important;
+  min-width: 100%;
+  text-align: center;
+  color: #ffffffff;
+  background: #000000;
+  border: 1px solid !important;
+  border-image-source: linear-gradient(180deg, #5b437a 0%, #492363 100%);
+}
+.card-body button:hover {
+  background: linear-gradient(180deg, #2b1645 0%, #9442ba 100%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.7rem !important;
+  border: 2px solid;
+  border-image-source: linear-gradient(180deg, #3b2e4b 0%, #1e0f29 100%);
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 3rem;
+  border-image-source: linear-gradient(180deg, #3b2e4b 0%, #1e0f29 100%);
+}
+
+.card-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 2rem;
+}
+.card-body li {
+  margin-bottom: 5px;
+  color: #ffffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: small;
+}
+
+label {
+  margin-left: 1rem;
+}
+
+.Banner-4_bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 50%;
+  max-width: 60%;
+  border-radius: 50px;
+  border: 1px solid #c632fb;
+}
+
+.Banner-4_bottom-content span {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.Banner-4_bottom-content-Second {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.Banner-4_bottom-content-Second p {
+  width: 100%;
+  font-size: medium;
+  margin: 0px;
+  text-align: center;
+}
+.Banner-4_bottom-content-Second h3 {
+  margin: 0px !important;
+  font-size: 50px;
+  background: radial-gradient(
+    450.22% 105.39% at 194.41% 84.97%,
+    #af52f0 0%,
+    #47e6bf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.Banner-4_bottom-content-Second h5 {
+  margin: 0px;
+  margin-top: 0.5rem;
+  background: radial-gradient(
+    450.22% 105.39% at 194.41% 84.97%,
+    #af52f0 0%,
+    #47e6bf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.margin-6rem-h1 {
+  margin: 4rem 0px 2rem 0px !important;
+}

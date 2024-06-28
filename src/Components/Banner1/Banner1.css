@@ -1,0 +1,89 @@
+.Banner1-Main {
+  background-color: #0a0b0d;
+  display: grid;
+  place-items: center;
+  margin: 0px 2rem 3rem 2rem;
+  border: 4px solid transparent;
+  border-image: linear-gradient(256.39deg, #42edbc 7.2%, #c632fb 105.8%);
+  border-image-slice: 1;
+}
+
+.Banner1-button {
+  display: grid;
+  place-items: center;
+  margin: 4rem 0px;
+  color: #ffffff;
+  width: 60%;
+}
+.Banner1-button button {
+  margin: 0rem 0px 1.5rem 0px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 52px;
+  padding: 0rem 1.5rem 0.5rem 1rem;
+  border: none;
+  /* font-weight: 800; */
+}
+.banner1-bottom-content svg {
+  font-size: 1rem;
+}
+.Banner1-button h2 {
+  font-size: 76px !important;
+  text-transform: uppercase;
+}
+.Banner1-button h1,
+h2 {
+  font-family: Astronomus;
+  font-size: 110px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+  background: radial-gradient(
+    70.88% 48.09% at 50% 60.11%,
+    #af52f0 0%,
+    #47e6bf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .Banner1-button h1 {
+    font-size: 110px;
+  }
+  .Banner1-button h2 {
+    font-size: 65px !important;
+  }
+  .content h1 {
+    font-size: 10px;
+  }
+}
+
+.Banner1-contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Banner1-contant p {
+  color: rgba(255, 255, 255, 1);
+  font-size: x-small;
+  width: 240px;
+  font-family: Sora;
+  text-align: justified;
+}
+
+.banner1-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.banner1-bottom-content button {
+  background-color: #000000;
+  color: #ffffff;
+  border: #ffffff 1px solid;
+  padding: 0px 2.5rem !important;
+  font-size: 1.4rem;
+}

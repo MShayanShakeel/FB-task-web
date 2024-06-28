@@ -1,0 +1,53 @@
+.Footer-Main {
+  background: rgba(10, 11, 13, 1);
+  display: grid;
+  place-items: center;
+  margin: 0px 2rem 3rem 2rem;
+  border-radius: 20px;
+  border: 1px solid #231739;
+  box-shadow: 0 0 10px #231739;
+}
+.Footer-Second-Navbar {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: solid 1px;
+  background-color: #000000;
+  margin-bottom: 1rem;
+}
+.Footer-Second-Navbar img {
+  width: 40px;
+}
+.Navbar-List-Main li {
+  color: #ffffffff;
+  font-size: small;
+}
+.Footer-Icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.Footer-Icons span {
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 0.3rem 0.5rem;
+  color: #ffffff;
+}
+
+.Footer-Icons span:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.Banner1-button h3 {
+  margin: 2rem 0px;
+}
+.Banner1-button button {
+  background-color: #000000;
+  color: #ffffff;
+  border: #ffffff 1px solid;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+}

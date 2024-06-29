@@ -2,11 +2,16 @@
   background-color: #000000;
   color: #ffffffff;
   margin: 6rem 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
   display: grid;
   place-items: center;
+  text-align: center;
 }
 .content h1 {
   margin-top: 1rem;
@@ -15,24 +20,19 @@
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  width: 60%;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
-  .content h1 {
-    font-size: 50px;
-  }
+  width: 63%;
 }
 .content p {
   font-size: x-small;
   width: 500px;
   text-align: center;
-  margin: 2rem 0px;
+  margin: 2rem 0px 0px 0px;
 }
 
 .content button {
-  padding: 1rem 5rem;
-  border-radius: 50px;
+  width: 80%;
+  height: 35%;
+  border-radius: 60px;
   background: linear-gradient(180deg, #2b1645 0%, #9442ba 100%);
   border: 1px solid;
   border-image-source: linear-gradient(180deg, #3b2c4e 0%, #4b206c 100%);
@@ -40,141 +40,153 @@
 .buttonImg {
   width: 70px;
 }
-.Cards-Main {
-  margin: 0px 10% !important;
-}
-.card {
-  background: linear-gradient(180deg, #201034 0%, #090211 100%);
-}
-.card-text {
-  font-size: x-small;
-  width: 100% !important;
-  margin: 1rem 0px 1rem 0rem !important;
-  text-align: center;
-  color: #ffffffff;
-}
-.card-title {
-  text-align: center;
-  color: #ffffffff !important;
-}
-.card-body hr {
-  border-style: solid;
-  border-width: 3px;
-  border-image: linear-gradient(
-    90deg,
-    rgba(378, 499, 99, 0) 0%,
-    rgba(1258, 479, 201, 0.5) 55.5%,
-    rgba(783, 439, 99, 0) 100%
-  );
-  border-image-slice: 2;
-}
-.card-body button {
-  margin: 0 0 0.2rem 0 !important;
-  padding: 6px 0rem !important;
-  min-width: 100%;
-  text-align: center;
-  color: #ffffffff;
-  background: #000000;
-  border: 1px solid !important;
-  border-image-source: linear-gradient(180deg, #5b437a 0%, #492363 100%);
-}
-.card-body button:hover {
-  background: linear-gradient(180deg, #2b1645 0%, #9442ba 100%);
+
+/* SOLLER SYSTEM CODE START  HERE  */
+.solar-system {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 1.7rem !important;
-  border: 2px solid;
-  border-image-source: linear-gradient(180deg, #3b2e4b 0%, #1e0f29 100%);
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
-.card-body {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid;
-  border-radius: 3rem;
-  border-image-source: linear-gradient(180deg, #3b2e4b 0%, #1e0f29 100%);
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1.06px solid rgba(255, 255, 255, 0.06);
+  border-radius: 220px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
-.card-body ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin-left: 2rem;
+.orbit00 {
+  width: 370%;
+  height: 230%;
 }
-.card-body li {
-  margin-bottom: 5px;
-  color: #ffffffff;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
-  font-size: small;
+.orbit0 {
+  width: 330%;
+  height: 200%;
+}
+.orbit1 {
+  width: 280%;
+  height: 170%;
 }
 
-label {
-  margin-left: 1rem;
+.orbit2 {
+  width: 250%;
+  height: 150%;
 }
 
-.Banner-4_bottom-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 50%;
-  max-width: 60%;
-  border-radius: 50px;
-  border: 1px solid #c632fb;
+.orbit3 {
+  width: 220%;
+  height: 130%;
 }
 
-.Banner-4_bottom-content span {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
+.orbit4 {
+  width: 190%;
+  height: 110%;
 }
 
-.Banner-4_bottom-content-Second {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 3rem;
+.orbit5 {
+  width: 160%;
+  height: 90%;
 }
-.Banner-4_bottom-content-Second p {
+.orbit6 {
+  width: 130%;
+  height: 70%;
+}
+.orbit7 {
   width: 100%;
-  font-size: medium;
-  margin: 0px;
-  text-align: center;
+  height: 50%;
 }
-.Banner-4_bottom-content-Second h3 {
-  margin: 0px !important;
-  font-size: 50px;
-  background: radial-gradient(
-    450.22% 105.39% at 194.41% 84.97%,
-    #af52f0 0%,
-    #47e6bf 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .content h1 {
+    font-size: 50px;
+  }
 }
 
-.Banner-4_bottom-content-Second h5 {
-  margin: 0px;
-  margin-top: 0.5rem;
-  background: radial-gradient(
-    450.22% 105.39% at 194.41% 84.97%,
-    #af52f0 0%,
-    #47e6bf 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .Banner2-Main {
+    margin: 0rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .content p {
+    font-size: 0.875rem;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .content button {
+    width: 60%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 30px;
+  }
+
+  .buttonImg {
+    width: 50px;
+  }
+
+  .solar-system {
+    width: 100%;
+  }
+
+  .orbit00 {
+    width: 100%;
+    height: 80%;
+  }
+  .orbit0 {
+    width: 90%;
+    height: 70%;
+  }
+  .orbit1 {
+    width: 80%;
+    height: 60%;
+  }
+
+  .orbit2 {
+    width: 70%;
+    height: 50%;
+  }
+
+  .orbit3 {
+    width: 60%;
+    height: 40%;
+  }
+
+  .orbit4 {
+    width: 50%;
+    height: 30%;
+  }
+
+  .orbit5 {
+    width: 40%;
+    height: 20%;
+  }
+  .orbit6 {
+    width: 30%;
+    height: 10%;
+  }
+  .orbit7 {
+    width: 20%;
+    height: 10%;
+  }
 }
 
-.margin-6rem-h1 {
-  margin: 4rem 0px 2rem 0px !important;
-}
+/* BANNER 2 STYLING CODE END HERE   */

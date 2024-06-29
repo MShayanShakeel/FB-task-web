@@ -1,15 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbara.css";
 import Logo from "../../images/Logoimage.png";
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState();
+
+  const handleToogle = () => {
+    setToggle((prevToggle) => !prevToggle); // Toggle the state
+  };
+
+  console.log(toggle, "toggle");
   return (
     <>
       <div className="Navbar-Main">
         <div>
-          <img src={Logo} alt="Logo" />
+          <img
+            style={{ cursor: "pointer" }}
+            src={Logo}
+            alt="Logo"
+            onClick={handleToogle}
+          />
         </div>
-        <div className="Navbar-List-Main">
+        <div
+          className={` ${
+            toggle ? "Navbar-List-Main" : "Navbar-List-Main nabvar-List-hide"
+          }`}
+        >
           <ul>
             <li>HOME</li>
             <li>ABOUT US</li>

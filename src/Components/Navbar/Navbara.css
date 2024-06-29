@@ -4,13 +4,15 @@
   align-items: center;
   background-color: #000000;
   color: #ffffff;
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 2.6rem;
 }
 
 .Navbar-List-Main {
   display: flex;
   align-items: center;
+  position: relative;
 }
+
 .Navbar-Main img {
   width: 40px;
 }
@@ -19,14 +21,24 @@
   padding: 0;
   margin: 0;
   display: flex;
+  align-items: center;
   gap: 1.5rem;
 }
 
 .Navbar-List-Main li {
   margin: 0;
   font-size: medium;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
-.Navbar-List-Main button {
+.Navbar-List-Main li:hover {
+  color: transparent;
+  background: linear-gradient(256.39deg, #42edbc 7.2%, #c632fb 105.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.Navbar-List-Main button,
+.nabvar-List-hide button {
   margin-left: 1.5rem;
   background: linear-gradient(256.39deg, #42edbc 7.2%, #c632fb 105.8%);
   color: #000000;
@@ -34,4 +46,23 @@
   padding: 0.5375rem 1.1rem 0.5375rem 1.1rem;
   border: none;
   font-size: small;
+}
+
+@media (max-width: 768px) {
+  .Navbar-List-Main ul {
+    display: inline;
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+    z-index: 100000;
+    position: absolute;
+    left: -6rem;
+    top: 2rem;
+    background: #572d69;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .nabvar-List-hide ul {
+    display: none !important;
+  }
 }

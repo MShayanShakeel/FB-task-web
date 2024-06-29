@@ -15,26 +15,23 @@ const Banner2 = () => {
               quis Praesentium ipsam vel quidem eligendi excepturi vero
               voluptatum quis
             </p>
-            <button>
-              <img className="buttonImg" src={buttonImg} alt="buttonImg" />
-            </button>
+            <div className="solar-system">
+              <button className="sun">
+                <img className="buttonImg" src={buttonImg} alt="buttonImg" />
+              </button>
+              <div className="orbit orbit00"></div>
+              <div className="orbit orbit0"></div>
+              <div className="orbit orbit1"></div>
+              <div className="orbit orbit2"></div>
+              <div className="orbit orbit3"></div>
+              <div className="orbit orbit4"></div>
+              <div className="orbit orbit5"></div>
+              <div className="orbit orbit6"></div>
+              <div className="orbit orbit7"></div>
+            </div>
           </div>
         </div>
       </div>
-      {/* <h1>Bridging digital worlds the power of connection</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium
-        ipsam vel quidem eligendi excepturi vero voluptatum quis
-      </p>
-      <div class="container">
-        <div class="circle circle-xlarge"></div>
-        <div class="circle circle-large"></div>
-        <div class="circle circle-medium"></div>
-        <div class="circle"></div>
-        <div class="content">
-          <button>shayan</button>
-        </div>
-      </div> */}
     </>
   );
 };

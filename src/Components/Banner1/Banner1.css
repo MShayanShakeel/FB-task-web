@@ -14,18 +14,26 @@
   margin: 4rem 0px;
   color: #ffffff;
   width: 60%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(198, 50, 251, 0.6) 30.5%,
+    rgba(198, 50, 251, 0) 100%
+  );
 }
 .Banner1-button button {
   margin: 0rem 0px 1.5rem 0px;
   background: #ffffff;
   color: #000000;
   border-radius: 52px;
-  padding: 0rem 1.5rem 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   border: none;
-  /* font-weight: 800; */
+  font-weight: 700;
 }
 .banner1-bottom-content svg {
-  font-size: 1rem;
+  font-size: 1rem !important;
+  padding: 0;
+  margin: 0;
 }
 .Banner1-button h2 {
   font-size: 76px !important;
@@ -35,7 +43,7 @@
 h2 {
   font-family: Astronomus;
   font-size: 110px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 78px;
   text-align: center;
   background: radial-gradient(
@@ -48,18 +56,6 @@ h2 {
   background-clip: text;
   color: transparent;
   text-transform: uppercase;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
-  .Banner1-button h1 {
-    font-size: 110px;
-  }
-  .Banner1-button h2 {
-    font-size: 65px !important;
-  }
-  .content h1 {
-    font-size: 10px;
-  }
 }
 
 .Banner1-contant {
@@ -84,6 +80,88 @@ h2 {
   background-color: #000000;
   color: #ffffff;
   border: #ffffff 1px solid;
-  padding: 0px 2.5rem !important;
-  font-size: 1.4rem;
+  padding: 0px 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.banner1-bottom-content button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* WEB RESPONCIVE MEDIA QUERY START HERE  */
+@media screen and (min-width: 1900px) and (max-width: 2450px) {
+  .Banner1-contant p {
+    font-size: medium;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Banner1-button h1 {
+    font-size: 90px;
+  }
+  .Banner1-button h2 {
+    font-size: 65px !important;
+  }
+  .content h1 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .Banner1-button h1 {
+    font-size: 80px;
+  }
+  .Banner1-button h2 {
+    font-size: 57px !important;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .Banner1-button h1 {
+    font-size: 70px;
+  }
+  .Banner1-button h2 {
+    font-size: 47px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .Banner1-Main {
+    margin: 1rem;
+    border-width: 2px;
+  }
+
+  .Banner1-button {
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  .Banner1-button h1 {
+    font-size: 2rem !important;
+    line-height: 1.2;
+  }
+  .Banner1-button h2 {
+    font-size: 1.55em !important;
+    line-height: 1.2;
+  }
+
+  .Banner1-contant {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Banner1-contant p {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .banner1-bottom-content {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .banner1-bottom-content button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
 }

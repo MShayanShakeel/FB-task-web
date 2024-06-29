@@ -5,8 +5,8 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const Banner1 = () => {
   return (
     <>
-      <div className="Banner1-Main">
-        <div className="Banner1-button">
+      <div className="Banner1-Main row">
+        <div className="Banner1-button col-12">
           <button>GAME</button>
           <h1>THE ONCHAIN</h1>
           <h2>SOLANA PREDICTING</h2>
@@ -23,7 +23,7 @@ const Banner1 = () => {
             <h3>DEX tools</h3>{" "}
             <button>
               <MdOutlineArrowOutward />
-            </button>{" "}
+            </button>
             <h3>RAYDIUM</h3>
             <button>
               <MdOutlineArrowOutward />

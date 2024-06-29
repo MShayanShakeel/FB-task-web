@@ -1,5 +1,6 @@
 import React from "react";
-import "./Banner2.css";
+import "../Banner2/Banner2.css";
+import "./Banner4.css"
 
 const Banner4 = () => {
   return (
@@ -67,7 +68,10 @@ const Banner4 = () => {
                 </div>
               </div>
             </div>
-            <h1 className="margin-6rem-h1">UNDERSTANDING THE solpumpSECONOMY</h1>
+            <h1 className="margin-6rem-h1">
+              UNDERSTANDING THE solpumpSECONOMY
+            </h1>
+
             <div className="Banner-4_bottom-content">
               <div className="Banner-4_bottom-content-Second">
                 <span>
@@ -83,7 +87,7 @@ const Banner4 = () => {
                   <h3>500</h3>
                   <h5>SOL</h5>
                 </span>
-                <p>Ryadium LP + 15% Token</p>
+                <p>Ryadium LP + Token</p>
               </div>
 
               <div className="Banner-4_bottom-content-Second">

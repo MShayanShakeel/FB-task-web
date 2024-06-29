@@ -3,3 +3,16 @@
   padding: 0;
 }
 
+body {
+  font-family: Astronomus, sans-serif !important;
+  /* font-weight: 900; */
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: var(--bs-gutter-y);
+}

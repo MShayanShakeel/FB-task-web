@@ -1,5 +1,6 @@
 import React from "react";
-import "./Banner2.css";
+import "../Banner2/Banner2.css";
+import "./Banner3.css"
 
 const Banner3 = () => {
   return (
@@ -20,7 +21,7 @@ const Banner3 = () => {
                   <div className="card">
                     <div className="card-body">
                       <h5 className="card-title">Card title</h5>
-                      <hr/>
+                      <hr />
                       <p className="card-text">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the

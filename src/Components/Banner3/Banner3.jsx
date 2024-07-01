@@ -1,6 +1,6 @@
 import React from "react";
 import "../Banner2/Banner2.css";
-import "./Banner3.css"
+import "./Banner3.css";
 
 const Banner3 = () => {
   return (
@@ -78,6 +78,7 @@ const Banner3 = () => {
                 </div>
               </div>
             </div>
+            <div className="Cards-Gradiant-color"></div>
           </div>
         </div>
       </div>

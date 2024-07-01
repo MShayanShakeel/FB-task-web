@@ -1,11 +1,12 @@
 .Banner2-Main {
   background-color: #000000;
   color: #ffffffff;
-  margin: 6rem 0px;
+  margin: 0rem 0px 5rem 0px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 
 .content {
@@ -26,7 +27,7 @@
   font-size: x-small;
   width: 500px;
   text-align: center;
-  margin: 2rem 0px 0px 0px;
+  margin: 1.4rem 0px 5px 0px;
 }
 
 .content button {
@@ -36,7 +37,12 @@
   background: linear-gradient(180deg, #2b1645 0%, #9442ba 100%);
   border: 1px solid;
   border-image-source: linear-gradient(180deg, #3b2c4e 0%, #4b206c 100%);
+  transition: border-color 0.3s ease;
 }
+.content button:hover {
+  border: #ffffffff 1px solid;
+}
+
 .buttonImg {
   width: 70px;
 }
@@ -107,6 +113,61 @@
   width: 100%;
   height: 50%;
 }
+
+.circle {
+  position: absolute;
+  width: 5px; 
+  height: 5px; 
+  background-color: #76389f;
+  border-radius: 50%; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.orbit00 .circle {
+  bottom: calc(30% - (50% / 2)); 
+  right: calc(58.5% - (99% / 2)); 
+}
+
+.orbit0 .circle {
+  bottom: calc(34% - (20% / 2)); 
+  left: calc(50% - (96% / 2)); 
+}
+
+.orbit1 .circle {
+  top: calc(50% - (70% / 2)); 
+  left: calc(50% - (129% / 2)); 
+}
+
+.orbit2 .circle {
+  top: calc(50% - (50% / 2)); 
+  right: calc(50% - (131% / 2)); 
+}
+
+.orbit3 .circle {
+  bottom: calc(50% - (80% / 2)); 
+  left: calc(50% - (83% / 2)); 
+}
+
+.orbit4 .circle {
+  bottom: calc(50% - (157% / 2)); 
+  left: calc(50% - (10% / 2)); 
+}
+
+.orbit5 .circle {
+  top: calc(50% - (170% / 2)); 
+  left: calc(50% - (10% / 2)); 
+}
+
+.orbit6 .circle {
+  bottom: calc(50% - (60% / 2)); 
+  right: calc(50% - (119% / 2)); 
+}
+
+.orbit7 .circle {
+  top: calc(50% - (50% / 2)); 
+  left: calc(50% - (99% / 2)); 
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
   .content h1 {
     font-size: 50px;

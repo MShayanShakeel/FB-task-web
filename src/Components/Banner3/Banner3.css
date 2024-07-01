@@ -72,9 +72,24 @@
   margin-bottom: 0.5rem;
   font-size: small;
 }
+.Cards-Gradiant-color {
+  top: 44%;
+  width: 50%;
+  height: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(198, 50, 251, 0.6) 3.5%,
+    rgba(198, 50, 251, 0) 100%
+  );
+  position: absolute;
+}
 
 @media (max-width: 768px) {
   .Cards-Main {
     margin: 0px 2% !important;
+  }
+  .card-body ul {
+    margin-left: 0px !important;
   }
 }

@@ -15,19 +15,69 @@ const Banner2 = () => {
               quis Praesentium ipsam vel quidem eligendi excepturi vero
               voluptatum quis
             </p>
+            {/* <div className="solar-system">
+              <button className="sun">
+                <img className="buttonImg" src={buttonImg} alt="buttonImg" />
+              </button>
+              <div className="orbit orbit00">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit0">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit1">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit2">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit3">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit4">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit5">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit6">
+                <div class="star"></div>
+              </div>
+              <div className="orbit orbit7">
+                <div class="star"></div>
+              </div>
+            </div> */}
             <div className="solar-system">
               <button className="sun">
                 <img className="buttonImg" src={buttonImg} alt="buttonImg" />
               </button>
-              <div className="orbit orbit00"></div>
-              <div className="orbit orbit0"></div>
-              <div className="orbit orbit1"></div>
-              <div className="orbit orbit2"></div>
-              <div className="orbit orbit3"></div>
-              <div className="orbit orbit4"></div>
-              <div className="orbit orbit5"></div>
-              <div className="orbit orbit6"></div>
-              <div className="orbit orbit7"></div>
+              <div className="orbit orbit00">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit0">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit1">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit2">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit3">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit4">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit5">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit6">
+                <div class="circle"></div>
+              </div>
+              <div className="orbit orbit7">
+                <div class="circle"></div>
+              </div>
             </div>
           </div>
         </div>

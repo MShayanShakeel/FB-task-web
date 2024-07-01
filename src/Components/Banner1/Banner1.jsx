@@ -6,6 +6,7 @@ const Banner1 = () => {
   return (
     <>
       <div className="Banner1-Main row">
+        <div className="Gradiant-color"></div>
         <div className="Banner1-button col-12">
           <button>GAME</button>
           <h1>THE ONCHAIN</h1>

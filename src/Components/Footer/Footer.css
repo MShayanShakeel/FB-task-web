@@ -6,6 +6,8 @@
   border-radius: 20px;
   border: 1px solid #231739;
   box-shadow: 0 0 10px #231739;
+  position: relative;
+  overflow: hidden;
 }
 .Footer-Second-Navbar {
   width: 96%;
@@ -55,6 +57,7 @@
 .Banner1-button button:hover {
   background-color: #ffffff;
   color: #000000;
+  border: #000000 solid 1px;
 }
 .solar-system-Footer {
   height: 150px;
@@ -72,6 +75,21 @@
   background-color: transparent;
 }
 
+.Footer-Gradiant-color {
+  bottom: 18rem;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(198, 50, 251, 0.3) 30.5%,
+    rgba(198, 50, 251, 0) 100%
+  );
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+  overflow: hidden;
+}
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .Footer-Main {
@@ -82,16 +100,13 @@
     align-items: center;
     padding: 1rem;
   }
-  /* .Footer-List-Main ul {
-    display: inline;
-  } */
 
   .Navbar-List-Main ul {
     display: inline;
-    padding: 0;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     list-style: none;
     text-align: center;
+    padding: 0.5rem;
   }
 
   .Navbar-List-Main li {

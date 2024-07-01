@@ -1,0 +1,111 @@
+.Banner4-Main {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  border: 4px solid transparent;
+  z-index: 1;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.Banner4-Main h1 {
+  color: #ffffff;
+  margin: 2rem 0px;
+}
+
+.Banner-4_bottom-content-Second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.Banner-4_bottom-content-Second span {
+  display: flex;
+  align-items: baseline;
+}
+
+.Banner-4_bottom-content-Second h3 {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.Banner-4_bottom-content-Second h5 {
+  font-size: 1rem;
+}
+
+.Banner-4_bottom-content-Second p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.Banner-4_bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 50%;
+  max-width: 60%;
+  border-radius: 50px;
+  border: 1px solid #c632fb;
+  margin-bottom: 2rem;
+  /* width: 80%; */
+  background-color: #000000;
+}
+
+.Banner-4_bottom-content span {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.Banner-4_bottom-content-Second {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.Banner-4_bottom-content-Second p {
+  width: 100%;
+  font-size: small;
+  margin: 0px;
+  text-align: center;
+}
+.Banner-4_bottom-content-Second h3 {
+  margin: 0px !important;
+  font-size: 50px;
+  background: radial-gradient(
+    450.22% 105.39% at 194.41% 84.97%,
+    #af52f0 0%,
+    #47e6bf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.Banner-4_bottom-content-Second h5 {
+  margin: 0px;
+  margin-top: 0.5rem;
+  background: radial-gradient(
+    450.22% 105.39% at 194.41% 84.97%,
+    #af52f0 0%,
+    #47e6bf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .Banner-4_bottom-content {
+    display: inline-block;
+  }
+}

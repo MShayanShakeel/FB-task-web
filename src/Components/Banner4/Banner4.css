@@ -1,68 +1,13 @@
-.Banner-4_bottom-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 50%;
-  max-width: 60%;
-  border-radius: 50px;
-  border: 1px solid #c632fb;
-}
-
-.Banner-4_bottom-content span {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
-.Banner-4_bottom-content-Second {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 3rem;
-}
-.Banner-4_bottom-content-Second p {
-  width: 100%;
-  font-size: small;
-  margin: 0px;
-  text-align: center;
-}
-.Banner-4_bottom-content-Second h3 {
-  margin: 0px !important;
-  font-size: 50px;
-  background: radial-gradient(
-    450.22% 105.39% at 194.41% 84.97%,
-    #af52f0 0%,
-    #47e6bf 100%
+.Banner-4 {
+  background-image: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
   );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  background-size: 60px 60px;
 }
 
-.Banner-4_bottom-content-Second h5 {
-  margin: 0px;
-  margin-top: 0.5rem;
-  background: radial-gradient(
-    450.22% 105.39% at 194.41% 84.97%,
-    #af52f0 0%,
-    #47e6bf 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-}
-.margin-6rem-h1 {
-  margin: 4rem 0px 2rem 0px !important;
-}
 label {
   margin-left: 1rem;
 }
 /* MOBILE RESPONCIVE SATRT */
-
-@media (max-width: 768px) {
-  .Banner-4_bottom-content {
-    display: inline-block;
-  }
-}

@@ -50,6 +50,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
+        <div className="Footer-Gradiant-color"></div>
       </div>
     </>
   );

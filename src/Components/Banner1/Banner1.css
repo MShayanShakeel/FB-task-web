@@ -173,7 +173,7 @@ h2 {
 
 @media (max-width: 768px) {
   .Banner1-Main {
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
     border-width: 2px;
   }
 

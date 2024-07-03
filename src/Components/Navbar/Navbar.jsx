@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState();
 
   const handleToogle = () => {
-    setToggle((prevToggle) => !prevToggle); // Toggle the state
+    setToggle((prevToggle) => !prevToggle);
   };
 
   console.log(toggle, "toggle");

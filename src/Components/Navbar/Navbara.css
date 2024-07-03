@@ -65,4 +65,7 @@
   .nabvar-List-hide ul {
     display: none !important;
   }
+  .Navbar-Main {
+    padding: 1.2rem 1.8rem;
+  }
 }

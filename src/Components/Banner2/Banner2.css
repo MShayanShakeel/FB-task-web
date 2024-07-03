@@ -116,56 +116,56 @@
 
 .circle {
   position: absolute;
-  width: 5px; 
-  height: 5px; 
+  width: 5px;
+  height: 5px;
   background-color: #76389f;
-  border-radius: 50%; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .orbit00 .circle {
-  bottom: calc(30% - (50% / 2)); 
-  right: calc(58.5% - (99% / 2)); 
+  bottom: calc(30% - (50% / 2));
+  right: calc(58.5% - (99% / 2));
 }
 
 .orbit0 .circle {
-  bottom: calc(34% - (20% / 2)); 
-  left: calc(50% - (96% / 2)); 
+  bottom: calc(34% - (20% / 2));
+  left: calc(50% - (96% / 2));
 }
 
 .orbit1 .circle {
-  top: calc(50% - (70% / 2)); 
-  left: calc(50% - (129% / 2)); 
+  top: calc(50% - (70% / 2));
+  left: calc(50% - (129% / 2));
 }
 
 .orbit2 .circle {
-  top: calc(50% - (50% / 2)); 
-  right: calc(50% - (131% / 2)); 
+  top: calc(50% - (50% / 2));
+  right: calc(50% - (131% / 2));
 }
 
 .orbit3 .circle {
-  bottom: calc(50% - (80% / 2)); 
-  left: calc(50% - (83% / 2)); 
+  bottom: calc(50% - (80% / 2));
+  left: calc(50% - (83% / 2));
 }
 
 .orbit4 .circle {
-  bottom: calc(50% - (157% / 2)); 
-  left: calc(50% - (10% / 2)); 
+  bottom: calc(50% - (157% / 2));
+  left: calc(50% - (10% / 2));
 }
 
 .orbit5 .circle {
-  top: calc(50% - (170% / 2)); 
-  left: calc(50% - (10% / 2)); 
+  top: calc(50% - (170% / 2));
+  left: calc(50% - (10% / 2));
 }
 
 .orbit6 .circle {
-  bottom: calc(50% - (60% / 2)); 
-  right: calc(50% - (119% / 2)); 
+  bottom: calc(50% - (60% / 2));
+  right: calc(50% - (119% / 2));
 }
 
 .orbit7 .circle {
-  top: calc(50% - (50% / 2)); 
-  left: calc(50% - (99% / 2)); 
+  top: calc(50% - (50% / 2));
+  left: calc(50% - (99% / 2));
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
@@ -212,13 +212,23 @@
     width: 100%;
     height: 80%;
   }
+  .orbit00 .circle {
+    bottom: calc(30% - (37% / 2));
+    right: calc(58.5% - (99% / 2));
+  }
+
   .orbit0 {
     width: 90%;
     height: 70%;
   }
+
   .orbit1 {
     width: 80%;
     height: 60%;
+  }
+  .orbit1 .circle {
+    top: calc(50% - (70% / 2));
+    left: calc(50% - (117% / 2));
   }
 
   .orbit2 {
@@ -230,15 +240,27 @@
     width: 60%;
     height: 40%;
   }
-
+  .orbit3 .circle {
+    bottom: calc(50% - (147% / 2));
+    left: calc(50% - (83% / 2));
+  }
   .orbit4 {
     width: 50%;
     height: 30%;
   }
 
+  .orbit4 .circle {
+    bottom: calc(50% - (144% / 2));
+    left: calc(50% - (10% / 2));
+  }
+
   .orbit5 {
     width: 40%;
     height: 20%;
+  }
+  .orbit5 .circle {
+    top: calc(50% - (207% / 2));
+    left: calc(50% - (-44% / 2));
   }
   .orbit6 {
     width: 30%;
